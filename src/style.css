@@ -1,5 +1,10 @@
 body {
     background-color: f9f7fe ;
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
 }
 
 .weather-web-page{
