@@ -63,6 +63,19 @@ main{
 .weather-page-temperature{
     display: flex;
 }
+.current-weather-temperature{
+    font-size: 60px ;
+    margin-left: 10px;
+    
+}
+.weather-icon{
+    font-size: 40px;
+    margin-top: 18px;
+}
+.weather-page-unit{
+  margin-top:16px ;
+  font-size: 24px;  
+}
 footer{
     border-top: 1px solid f9f7fe;
     padding: 30px 0 0 0;
