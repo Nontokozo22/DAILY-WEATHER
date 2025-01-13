@@ -20,11 +20,13 @@ a{
     color: #885DF1;
 }
 .weather-date-and-details{
-   font-size: 16px;
+   font-size: 22px;
    line-height: 20px;
-    
-}
 
+}
+.weather-date-and-details strong{
+    color: magenta;
+}
 .weather-web-page{
     background: white;
     margin: 45px auto;
