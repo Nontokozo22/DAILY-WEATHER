@@ -6,7 +6,11 @@ body {
   font-style: normal;
 
 }
-
+header{
+    border-bottom: 1px solid f9f7fe;
+    padding: 30px 0 0 0;
+    
+}
 .weather-web-page{
     background: white;
     margin: 45px auto;
@@ -22,11 +26,14 @@ body {
     width: 80%;
     font-size: 18px;
     padding: 16px 20px;
+    border-radius: 8px;
 }
 .search-input-button{
     background-color:#885DF1 ;
-    padding: 16px 20px ;
+    padding: 16px 24px ;
     border: none;
     font-size: 18px;
+    border-radius: 8px;
+    color: white;
 
 }
