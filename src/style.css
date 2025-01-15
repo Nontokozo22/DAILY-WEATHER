@@ -64,9 +64,8 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.weather-page-temperature{
+.weather-app-temperature{
     display: flex;
-    margin-inline: 15px;
 }
 .current-weather-temperature{
     font-size: 88px ;
