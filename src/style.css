@@ -34,7 +34,7 @@ a{
 .weather-web-page{
     background: white;
     margin: 45px auto;
-    max-width: 100%;
+    max-width: 900px;
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
