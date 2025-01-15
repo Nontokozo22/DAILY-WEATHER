@@ -5,7 +5,10 @@ body {
   font-weight: 300;
   font-style: normal;
   background-repeat: no-repeat;
-  
+  width: 100vh;
+  height: 100vh;
+  display: block; 
+  margin: auto;
 }
 header{
     border-bottom: 1px solid #f9f7fe;
