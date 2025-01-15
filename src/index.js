@@ -51,8 +51,16 @@ function handleSearchSubmit(event){
     searchCity(searchInput.value);
 }
 
+function fetchForecast(city){
+    let apiKey = "fee5e0t01bad61o3ad3a4130f72ea73d"
+    let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`
+axios.get(apiUrl).then(displayForecast)
 
-function displayForecast(){
+}
+
+function displayForecast(response){
+
+    console.log(response.data)
     let days = ["Wed", "Thur", "Fri", "Sat", "Mon"]
 let forecastHtml = "";
 
@@ -81,5 +89,6 @@ days.forEach(function (day){
 let searchformElement = document.querySelector("#search-form")
 searchformElement.addEventListener("submit", handleSearchSubmit)
  
-displayForecast()
+
+fetchForecast()
 searchCity("Durban")
