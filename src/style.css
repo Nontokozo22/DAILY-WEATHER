@@ -101,7 +101,7 @@ main{
 }
 .forecast-temperatures{
     text-align: center;
-    color: magenta ;
+    color: #3db3ff ;
     display: flex;
     justify-content: center;
     margin-top: 10px;
