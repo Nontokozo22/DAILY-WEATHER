@@ -32,12 +32,13 @@ a{
     color: #3db3ff;
 }
 .weather-web-page{
-    background: white;
+    background-color: rgb( 0 0 0 / 0.1);
     margin: 45px auto;
     max-width: 600px;
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    
 }
 
 .search-form-input{
