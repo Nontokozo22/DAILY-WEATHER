@@ -21,7 +21,7 @@ h1{
     margin: 0;
 }
 a{
-    color: #885DF1;
+    color: #5d73f1;
 }
 .weather-date-and-details{
    font-size: 22px;
@@ -29,7 +29,7 @@ a{
 
 }
 .weather-date-and-details strong{
-    color: magenta;
+    color: #3db3ff;
 }
 .weather-web-page{
     background: white;
@@ -49,7 +49,7 @@ a{
     border-radius: 8px;
 }
 .search-input-button{
-    background-color:#885DF1;
+    background-color:#4cdefb;
     padding: 16px 24px ;
     border: none;
     font-size: 18px;
